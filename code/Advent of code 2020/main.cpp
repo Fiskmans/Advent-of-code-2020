@@ -4,7 +4,7 @@
 
 Puzzle* Select()
 {
-	int selected = 1;
+	int selected = 3;
 	switch (selected)
 	{
 	case 0:
@@ -63,7 +63,9 @@ Puzzle* Select()
 int main()
 {
 	auto* puzzle = Select();
+	std::cout << "Puzzle 1" << std::endl;
 	puzzle->RunPuzzle1();
+	std::cout << "Puzzle 2" << std::endl;
 	puzzle->RunPuzzle2();
 	delete puzzle;
 	return 1;

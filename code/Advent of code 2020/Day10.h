@@ -11,5 +11,6 @@ public:
 	virtual void RunPuzzle1() override;
 	virtual void RunPuzzle2() override;
 
-	std::vector<int> expenseReport;
+	std::vector<int> joltConverters;
+	std::vector<int> gaps;
 };

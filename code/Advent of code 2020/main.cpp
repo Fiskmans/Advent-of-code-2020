@@ -4,7 +4,7 @@
 
 Puzzle* Select()
 {
-	int selected = 5;
+	int selected = 11;
 	switch (selected)
 	{
 	case 0:

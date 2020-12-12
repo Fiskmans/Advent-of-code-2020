@@ -9,3 +9,6 @@
 #include <sstream>
 #include <charconv>
 #include <bitset>
+#include <unordered_map>
+#include <unordered_set>
+#include <memory>

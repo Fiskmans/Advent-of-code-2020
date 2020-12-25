@@ -12,5 +12,7 @@ public:
 	virtual void RunPuzzle1() override;
 	virtual void RunPuzzle2() override;
 
+	int now;
+	std::vector<int> departures;
 };
 

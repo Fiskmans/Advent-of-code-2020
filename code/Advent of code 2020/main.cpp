@@ -4,7 +4,7 @@
 
 Puzzle* Select()
 {
-	int selected = 11;
+	int selected = 16;
 	switch (selected)
 	{
 	case 0:
@@ -58,6 +58,8 @@ Puzzle* Select()
 	case 24:
 		return new Day25("Input/Day25.txt");
 	}
+
+	return nullptr;
 }
 
 int main()

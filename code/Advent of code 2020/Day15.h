@@ -12,5 +12,6 @@ public:
 	virtual void RunPuzzle1() override;
 	virtual void RunPuzzle2() override;
 
+	std::vector<size_t> startingNumbers;
 };
 

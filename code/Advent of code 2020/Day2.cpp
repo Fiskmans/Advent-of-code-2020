@@ -43,7 +43,7 @@ void Day2::RunPuzzle2()
 	int valid = 0;
 	for (PasswordWithRule& pass : passwords)
 	{
-		if (pass.password[pass.lower-1] == pass.letter ^ pass.password[pass.upper-1] == pass.letter)
+		if ((pass.password[pass.lower-1] == pass.letter) ^ (pass.password[pass.upper-1] == pass.letter))
 		{
 			valid++;
 		}
